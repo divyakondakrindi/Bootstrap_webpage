@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Frontend Module Test</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/fontawesome.css" integrity="sha384-jLKHWM3JRmfMU0A5x5AkjWkw/EYfGUAGagvnfryNV3F9VqM98XiIH7VBGVoxVSc7" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+    
+</head>
+<body>
+    <div class="container">
+        <div class="part_tab">
+            <nav class="navbar navbar-expand">
+                <div class="container-fluid">
+                    <ul class="navbar-nav">
+                        <li class="nav-item"><a class="nav-link" href="#">Home</a></li>
+                        <li class="nav-item text"><a class="nav-link" id="btn" href="#">Features</a></li>
+                        <li class="nav-item"><a class="nav-link" id="btn" href="#">Pricing</a></li>
+                        <li class="nav-item"><a class="nav-link" id="btn" href="#">About</a></li>
+                        <li class="nav-item"><a class="nav-link" id="btn" href="#">Contact us</a></li>
+                    </ul>
+                    <form class="d-flex">
+                        <input class="form-control mx-2" type="search" placeholder="Search">
+                        <button class="btn btn-outline-primary border-1 rounded" type="submit">Search</button>
+                    </form>
+                </div>
+            </nav>
+        </div>
+        <div class="container-fluid carousel slide my-3" id="caro">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#caro" data-bs-slide-to="0"></button>
+                <button type="button" data-bs-target="#caro" data-bs-slide-to="1" class="active"></button>
+                <button type="button" data-bs-target="#caro" data-bs-slide-to="2"></button>
+                <button type="button" data-bs-target="#caro" data-bs-slide-to="3"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item">
+                  <img src="https://cdn.pixabay.com/photo/2018/04/28/22/03/tree-3358468__340.jpg" class="w-100" alt="...">
+                  <div class="carousel-caption">
+                    <h5>First slide label</h5>
+                    <p>Some representative placeholder content for the first slide.</p>
+                  </div>
+                </div>
+                <div class="carousel-item active">
+                  <img src="https://cdn.pixabay.com/photo/2018/01/12/14/24/night-3078326__340.jpg" class="w-100" alt="...">
+                  <div class="carousel-caption">
+                    <h5>Second slide label</h5>
+                    <p>Some representative placeholder content for the second slide.</p>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <img src="https://cdn.pixabay.com/photo/2018/04/16/16/16/sunset-3325080__340.jpg" class="w-100" alt="...">
+                  <div class="carousel-caption">
+                    <h5>Third slide label</h5>
+                    <p>Some representative placeholder content for the third slide.</p>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="https://cdn.pixabay.com/photo/2016/08/11/23/48/mountains-1587287__340.jpg" class="w-100" alt="...">
+                    <div class="carousel-caption">
+                      <h5>Fourth slide label</h5>
+                      <p>Some representative placeholder content for the third slide.</p>
+                    </div>
+                  </div>
+              </div>
+              <button class="carousel-control-prev" type="button" data-bs-target="#caro" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon"></span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#caro" data-bs-slide="next">
+                <span class="carousel-control-next-icon"></span>
+              </button>
+            </div>
+        </div>
+       <div>
+       
+
+       <div class = "d-flex justify-content:space-between"  >
+        <div class="card" style="width:30rem" id = "card_1">
+            <div class="card-header">
+                Card Header
+            </div>
+            <img src="https://cdn.pixabay.com/photo/2015/04/19/08/33/flower-729512__340.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">Card Title</h5>
+                <h6 class="card-subtitle mb-2 text-muted">Sub Title</h6>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                    the card's content.</p>
+                <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+            <ul class="list-group list-group-flush">
+                <li class="list-group-item">1st list item</li>
+                <li class="list-group-item">2nd list item</li>
+            </ul>
+            <div class="card-body">
+                <a href="#" class="card-link">Card link</a>
+                <a href="#" class="card-link">Another link</a>
+            </div>
+
+            <div class="card-footer">Card Footer</div>
+        </div>
+        <div class="card" style="width:30rem">
+            <div class="card-header">
+                Card Header
+            </div>
+            <img src="https://cdn.pixabay.com/photo/2014/01/22/19/44/flower-field-250016__340.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">Card Title</h5>
+                <h6 class="card-subtitle mb-2 text-muted">Sub Title</h6>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                    the card's content.</p>
+                <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+            <ul class="list-group list-group-flush">
+                <li class="list-group-item">1st list item</li>
+                <li class="list-group-item">2nd list item</li>
+            </ul>
+            <div class="card-body">
+                <a href="#" class="card-link">Card link</a>
+                <a href="#" class="card-link">Another link</a>
+            </div>
+
+            <div class="card-footer">Card Footer</div>
+        </div>
+        <div class="card" style="width:30rem">
+            <div class="card-header">
+                Card Header
+            </div>
+            <img src="https://cdn.pixabay.com/photo/2016/11/23/13/48/beach-1852945__340.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">Card Title</h5>
+                <h6 class="card-subtitle mb-2 text-muted">Sub Title</h6>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                    the card's content.</p>
+                <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+            <ul class="list-group list-group-flush">
+                <li class="list-group-item">1st list item</li>
+                <li class="list-group-item">2nd list item</li>
+            </ul>
+            <div class="card-body">
+                <a href="#" class="card-link">Card link</a>
+                <a href="#" class="card-link">Another link</a>
+            </div>
+
+            <div class="card-footer">Card Footer</div>
+        </div>
+
+       </div>
+        <div class="container-fluid accordion my-4">
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne">
+                Accordion Item-1
+              </button>
+            </h2>
+            <div id="collapseOne" class="accordion-collapse collapse">
+              <div class="accordion-body">
+                <strong>This is the first item's accordion body.</strong> It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo">
+                Accordion Item-2
+              </button>
+            </h2>
+            <div id="collapseTwo" class="accordion-collapse collapse">
+              <div class="accordion-body">
+                <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree">
+                Accordion Item-3
+              </button>
+            </h2>
+            <div id="collapseThree" class="accordion-collapse collapse">
+              <div class="accordion-body">
+                <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="container-fluid">
+          <table class="table table-responsive my-4">
+            <thead>
+              <tr>
+                <th><input class="form-check-input" type="checkbox"></th>
+                <th>Title</th>
+                <th>Roll No</th>
+                <th>First Name</th>
+                <th>Last Name</th>
+                <th>Links</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th><input class="form-check-input" type="checkbox"></th>
+                <td><i class="fa fa-ellipsis-v" style="color: black" aria-hidden="true"></i></td>
+                <td>Student 1</td>
+                <td>Nitya</td>
+                <td>manik</td>
+                <td><a href="#">Publish</a>
+                  <a href="#">Edit</a>
+                  <a href="#">Delete</a>
+                </td>
+              </tr>
+              <tr>
+                <th><input class="form-check-input" type="checkbox"></th>
+                <td><i class="fa fa-ellipsis-v" style="color: black" aria-hidden="true"></i></td>
+                <td>Student 2</td>
+                <td>Neveditha</td>
+                <td>Thomas</td>
+                <td><a href="#">Publish</a>
+                  <a href="#">Edit</a>
+                  <a href="#">Delete</a>
+                </td>
+              </tr>
+              <tr>
+                <th><input class="form-check-input" type="checkbox"></th>
+                <td><i class="fa fa-ellipsis-v" style="color: black" aria-hidden="true"></i></td>
+                <td>Student 3</td>
+                <td>jaya</td>
+                <td>paveen</td>
+                <td><a href="#">Publish</a>
+                  <a href="#">Edit</a>
+                  <a href="#">Delete</a>
+                </td>
+              </tr>
+              <tr>
+                <th><input class="form-check-input" type="checkbox"></th>
+                <td><i class="fa fa-ellipsis-v" style="color: black" aria-hidden="true"></i></td>
+                <td>student 4</td>
+                <td>triveni</td>
+                <td>marcous</td>
+                <td><a href="#">Publish</a>
+                  <a href="#">Edit</a>
+                  <a href="#">Delete</a>
+                </td>
+              </tr>
+              <tr>
+                <th><input class="form-check-input" type="checkbox"></th>
+                <td><i class="fa fa-ellipsis-v" style="color: black" aria-hidden="true"></i></td>
+                <td>student 5</td>
+                <td>Manisha</td>
+                <td>hari</td>
+                <td><a href="#">Publish</a>
+                  <a href="#">Edit</a>
+                  <a href="#">Delete</a>
+                </td>
+              </tr>
+              <tr>
+                <th><input class="form-check-input" type="checkbox"></th>
+                <td><i class="fa fa-ellipsis-v" style="color: black" aria-hidden="true"></i></td>
+                <td>student 6</td>
+                <td>Nora</td>
+                <td>fatima</td>
+                <td><a href="#">Publish</a>
+                  <a href="#">Edit</a>
+                  <a href="#">Delete</a>
+                </td>
+              </tr>
+              <tr>
+                <th><input class="form-check-input" type="checkbox"></th>
+                <td><i class="fa fa-ellipsis-v" style="color: black" aria-hidden="true"></i></td>
+                <td>student 7</td>
+                <td>Nimisha</td>
+                <td>mitra</td>
+                <td><a href="#">Publish</a>
+                  <a href="#">Edit</a>
+                  <a href="#">Delete</a>
+                </td>
+              </tr>
+              <tr>
+                <th><input class="form-check-input" type="checkbox"></th>
+                <td><i class="fa fa-ellipsis-v" style="color: black" aria-hidden="true"></i></td>
+                <td>student 8</td>
+                <td>trivia</td>
+                <td>crop</td>
+                <td><a href="#">Publish</a>
+                  <a href="#">Edit</a>
+                  <a href="#">Delete</a>
+                </td>
+              </tr>
+              <tr>
+                <th><input class="form-check-input" type="checkbox"></th>
+                <td><i class="fa fa-ellipsis-v" style="color: black" aria-hidden="true"></i></td>
+                <td>student 9</td>
+                <td>Malavika</td>
+                <td>Arya</td>
+                <td><a href="#">Publish</a>
+                  <a href="#">Edit</a>
+                  <a href="#">Delete</a>
+                </td>
+              </tr>
+              <tr>
+                <th><input class="form-check-input" type="checkbox"></th>
+                <td><i class="fa fa-ellipsis-v" style="color: black" aria-hidden="true"></i></td>
+                <td>student 10</td>
+                <td>Niyamika</td>
+                <td>singh</td>
+                <td><a href="#">Publish</a>
+                  <a href="#">Edit</a>
+                  <a href="#">Delete</a>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <div class="container-fluid">
+          <h6 class="fw-bold">Bootstrap Form</h6>
+          <form>
+            <div class="form">
+              <div class="col-sm-6 my-2">
+                <input class="w-100 form-control" type="text" placeholder="First Name">
+              </div>
+              <div class="col-sm-6 my-2">
+                <input class="w-100 form-control" type="text" placeholder="Last Name">
+              </div>
+              <div class="col-12 my-2">
+                <input class="form-control" type="email" placeholder="Email">
+              </div>
+              <div class="col-12 my-2">
+                <input class="form-control" type="password" placeholder="Password">
+              </div>
+              <div class="col-12 my-2">
+                <input class="form-control" type="password" placeholder="Confirm Password">
+              </div>
+            </div>
+            <button class="btn btn-primary my-2">Submit Form</button>
+          </form>
+        </div>
+    </div>
+</body>
+</html>
